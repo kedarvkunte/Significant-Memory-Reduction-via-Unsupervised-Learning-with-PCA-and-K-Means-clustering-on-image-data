@@ -30,10 +30,14 @@ The analysis of K-Means algorithm can be done with the help of following elbow p
 K-means clustering can be a very useful image compression algorithm. 
 
 | K  | Reconstruction error | Compression rate |
-| --- | --- | --- |
+| ---: | ---: | ---: |
 | 2  | 40.0753 | 0.04171 |
+| 5 | 23.3516 | 0.1251 |
+| 10 | 16.5217 | 0.1669 |
+| 25 | 10.9738 | 0.2089 |
+| 50 | 8.3434 | 0.2512 |
+| 75 | 7.1580 | 0.2935 |
+| 100 | 6.4359 | 0.2941 |
+| 200 | 5.0760 | 0.3383 |
 
-| Command | Description |
-| --- | --- |
-| `git status` | List all *new or modified* files |
-| `git diff` | Show file differences that **haven't been** staged |
+
