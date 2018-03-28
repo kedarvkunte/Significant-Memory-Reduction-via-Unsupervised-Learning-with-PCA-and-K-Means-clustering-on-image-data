@@ -43,7 +43,7 @@ K-means clustering can be a very useful image compression algorithm.
 | 50 | 8.3434 | 0.2512 |
 | 75 | 7.1580 | 0.2935 |
 | 100 | 6.4359 | 0.2941 |
-| **200 | 5.0760 | 0.3383 |
+| **200** |**5.0760** | **0.3383** |
 
 
 The mean reconstruction error using K = 25 is only about 10.97, while achieving a compression rate of 0.2.
