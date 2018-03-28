@@ -22,7 +22,12 @@ In this file, there are two datasets used.
 * For PCA, 100 grayscale images of size 50 X 50 pixels are used.
 * For K-Means, the dataset is an image `times_sqaure.jpg` of size 400 X 400 X 3 pixels
 
-# Analysis
+## Analysis
+
+Original Image             |  Image with K = 200
+:-------------------------:|:-------------------------:
+![Original Image](https://github.com/kedarvkunte/Significant-Memory-Reduction-via-Unsupervised-Learning-with-PCA-and-K-Means-clustering-on-image-data/blob/master/Output%20Results/Plots%20for%20K-Means%20Clustering/KMeans%20Original%20times_square.png)  |  ![Image with K = 200](https://github.com/kedarvkunte/Significant-Memory-Reduction-via-Unsupervised-Learning-with-PCA-and-K-Means-clustering-on-image-data/blob/master/Output%20Results/Plots%20for%20K-Means%20Clustering/KMeans%20K%20%3D%20200.png)
+
 
 The analysis of K-Means algorithm can be done with the help of following elbow plot.
 ![Elbow Plot](https://github.com/kedarvkunte/Significant-Memory-Reduction-via-Unsupervised-Learning-with-PCA-and-K-Means-clustering-on-image-data/blob/master/Output%20Results/Plots%20for%20K-Means%20Clustering/Elbow%20Plot.png)
@@ -38,13 +43,10 @@ K-means clustering can be a very useful image compression algorithm.
 | 50 | 8.3434 | 0.2512 |
 | 75 | 7.1580 | 0.2935 |
 | 100 | 6.4359 | 0.2941 |
-| 200 | 5.0760 | 0.3383 |
+| **200 | 5.0760 | 0.3383 **|
 
 
 The mean reconstruction error using K = 25 is only about 10.97, while achieving a compression rate of 0.2.
 The original image and the image with 200 colors are shown below.
 ####**At K = 200, the image is almost like original image, while the size is only 1/3rd of the original image thus achieving 66.66% memory reduction.**
 
-Original Image             |  Image with K = 200
-:-------------------------:|:-------------------------:
-![Original Image](https://github.com/kedarvkunte/Significant-Memory-Reduction-via-Unsupervised-Learning-with-PCA-and-K-Means-clustering-on-image-data/blob/master/Output%20Results/Plots%20for%20K-Means%20Clustering/KMeans%20Original%20times_square.png)  |  ![Image with K = 200](https://github.com/kedarvkunte/Significant-Memory-Reduction-via-Unsupervised-Learning-with-PCA-and-K-Means-clustering-on-image-data/blob/master/Output%20Results/Plots%20for%20K-Means%20Clustering/KMeans%20K%20%3D%20200.png)
