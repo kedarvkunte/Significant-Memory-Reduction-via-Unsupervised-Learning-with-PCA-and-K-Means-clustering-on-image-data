@@ -28,8 +28,12 @@ The analysis of K-Means algorithm can be done with the help of following elbow p
 ![Elbow Plot](https://github.com/kedarvkunte/Significant-Memory-Reduction-via-Unsupervised-Learning-with-PCA-and-K-Means-clustering-on-image-data/blob/master/Output%20Results/Plots%20for%20K-Means%20Clustering/Elbow%20Plot.png)
 
 K-means clustering can be a very useful image compression algorithm. 
+
 | K  | Reconstruction error | Compression rate |
 | --- | --- | --- |
 | 2  | 40.0753 | 0.04171 |
 
-
+| Command | Description |
+| --- | --- |
+| `git status` | List all *new or modified* files |
+| `git diff` | Show file differences that **haven't been** staged |
