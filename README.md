@@ -25,4 +25,4 @@ In this file, there are two datasets used.
 # Analyisis
 
 The analysis of K-Means algorithm can be done with the help of following elbow plot.
-![Elbow Plot](/Output Results/Plots for K-Means Clustering/Elbow Plot.png)
+![Elbow Plot](https://github.com/kedarvkunte/Significant-Memory-Reduction-via-Unsupervised-Learning-with-PCA-and-K-Means-clustering-on-image-data/blob/master/Output%20Results/Plots%20for%20K-Means%20Clustering/Elbow%20Plot.png)
