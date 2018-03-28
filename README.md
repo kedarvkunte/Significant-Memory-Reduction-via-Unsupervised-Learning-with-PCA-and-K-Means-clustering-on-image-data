@@ -22,3 +22,7 @@ In this file, there are two datasets used.
 * For PCA, 100 grayscale images of size 50 X 50 pixels are used.
 * For K-Means, the dataset is an image `times_sqaure.jpg` of size 400 X 400 X 3 pixels
 
+# Analyisis
+
+The analysis of K-Means algorithm can be done with the help of following elbow plot.
+![Elbow Plot](/Output Results/Plots for K-Means Clustering/Elbow Plot.png)
