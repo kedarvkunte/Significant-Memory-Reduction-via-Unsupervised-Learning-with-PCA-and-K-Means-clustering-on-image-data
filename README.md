@@ -29,7 +29,6 @@ The analysis of K-Means algorithm can be done with the help of following elbow p
 
 K-means clustering can be a very useful image compression algorithm. 
 | K  | Reconstruction error | Compression rate |
-| ------------- | ------------- | ---------------|
-| 2  | 40.0753  | 0.04171 |
+| 2  | 40.0753              |          0.04171 |
 
 
