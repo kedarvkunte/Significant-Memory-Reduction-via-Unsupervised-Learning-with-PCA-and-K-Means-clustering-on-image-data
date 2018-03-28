@@ -66,7 +66,7 @@ The table for k (where k eigen vectors are chosen to maximize the variance using
 | 150 | 2.4383e-12 | 1.560 |
 | 300  | 2.44711e-12 | 3.120 |
 
-
+The PCA grid plot shows K principal components. At K = 50, Reconstruction error is around 8.1921, with compression rate almost equal 0.5 **thus achieving 50% memory reduction.**
 
 
 
