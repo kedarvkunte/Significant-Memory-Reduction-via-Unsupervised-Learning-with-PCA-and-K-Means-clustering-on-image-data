@@ -31,7 +31,7 @@ K-means clustering can be a very useful image compression algorithm.
 
 | K  | Reconstruction error | Compression rate |
 | ---: | ---: | ---: |
-| 2  | 40.0753 | 0.04171 |
+| 2  | 40.0753 | 0.0417 |
 | 5 | 23.3516 | 0.1251 |
 | 10 | 16.5217 | 0.1669 |
 | 25 | 10.9738 | 0.2089 |
