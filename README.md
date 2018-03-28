@@ -47,6 +47,29 @@ K-means clustering can be a very useful image compression algorithm.
 
 
 The mean reconstruction error using K = 25 is only about 10.97, while achieving a compression rate of 0.2.
-The original image and the image with 200 colors are shown below.
-####**At K = 200, the image is almost like original image, while the size is only 1/3rd of the original image thus achieving 66.66% memory reduction.**
+The original image and the image with 200 colors are shown above.
+**At K = 200, the image is almost like original image, while the size is only 1/3rd of the original image thus achieving 66.66% memory reduction.**
+
+For PCA, similar analysis can be performed with the help of reconstruction error and compression rate. PCA face gridplot is shown below for face 1.
+![Face grid plot](https://github.com/kedarvkunte/Significant-Memory-Reduction-via-Unsupervised-Learning-with-PCA-and-K-Means-clustering-on-image-data/blob/master/Output%20Results/Plots%20for%20PCA/PCA%20Face1%20Gridplot.png)
+
+The table for k (where k eigen vectors are chosen to maximize the variance using k largest eigen values), reconstruction error and compression rate is shown as below:
+
+| K  | Reconstruction error | Compression rate |
+| ---: | ---: | ---: |
+| 3  | 31.5818 | 0.031 |
+| 5 | 28.4036 | 0.052 |
+| 10 | 22.9751 | 0.104  |
+| 30 | 13.4085 | 0.312 |
+| 50 | 8.1921  | 0.520 |
+| 100 | 2.4407e-12 | 1.040 |
+| 150 | 2.4383e-12 | 1.560 |
+| 300  | 2.44711e-12 | 3.120 |
+
+
+
+
+
+
+
 
